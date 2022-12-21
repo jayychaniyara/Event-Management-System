@@ -1,0 +1,79 @@
+
+body {
+  background-color: #43345d;
+  min-height: 800px;
+  height: 100vh;
+}
+
+.heading {
+  color: white;
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+.card {
+  background: #fff;
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  height: 30%;
+  width: 100%;
+  padding: 0px;
+  overflow: hidden;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.header-img {
+
+  background: left center;
+  background-size: 100%;
+  transition: all ease-in-out 0.4s;
+}
+
+.card:hover .header-img {
+  transform: scale(1.25) rotate(2deg);
+}
+
+.card-title {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px;
+}
+
+  .card-title h1 {
+    font-family: "Catamaran", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 0px;
+  }
+
+.btn {
+  padding: 10px 20px;
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  bottom: 30px;
+  transform: translate(-50%, 0%);
+  border: 1px solid turquoise;
+  border-radius: 100px;
+  text-align: center;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+  .btn:hover {
+    background: turquoise;
+    color: #fff;
+  }

@@ -1,0 +1,18 @@
+<body>
+  <div class="heading p-3">
+    <b>Upcoming Events for Software Developers</b>
+  </div>
+  <div class="container ">
+    <div class="row p-3">
+      <div class="card col-12 " *ngFor="let e of listEvent">
+        <div class="image">
+          <img src="../assets/{{e.image}}" [routerLink]="['../eventDetails']" [state]="e">
+        </div>
+        <div class="content">
+          <h3>{{e.name}}</h3>
+          <p>{{e.startDate | date:'dd'}} - {{e.endDate | date:'dd'}}  {{e.endDate | date:'MMMM'}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

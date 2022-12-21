@@ -1,0 +1,48 @@
+<!--<html lang="en">
+<body>
+  <div class="heading  p-3">
+    <b>Speaker Details</b>
+  </div>
+  <div class="card" *ngFor="let item of listSpeaker">
+    <div class="image">
+      <img src="../../assets/{{item.pic}}" />
+    </div>
+    <div class="details">
+      <div class="center">
+        <h1 style="color:#434242">{{item.name}}<br><span>{{item.profile}}</span></h1>
+        <p>{{item.twitter}}</p>
+        <p>{{item.linkedInUrl}}</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>-->
+<!-- new trial -->
+<html>
+<body>
+  <div class="heading  p-3">
+    <b>Speaker Details</b>
+  </div>
+
+  <div class="testimotionals row">
+    <div class="card col-6" *ngFor="let item of listSpeaker">
+      <div class="layer">
+
+      </div>
+      <div class="content">
+        <div class="image">
+          <img width="100px" src="../../assets/{{item.pic}}" />
+
+        </div>
+        <div class="details">
+          <h2> {{item.name}} <br> <span>{{item.profile}}</span></h2>
+          <p>{{item.twitter}}</p>
+          <p>{{item.linkedInUrl}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

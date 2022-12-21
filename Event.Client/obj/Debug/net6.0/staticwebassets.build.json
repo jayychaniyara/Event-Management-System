@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "ZfCisnl7bXwQaCBXJNM4hxof/+HFd/okVkL+EAbctQo=",
+  "Source": "Event.Client",
+  "BasePath": "_content/Event.Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Event.Client\\wwwroot",
+      "Source": "Event.Client",
+      "ContentRoot": "C:\\Users\\jay.chaniyara\\Documents\\Project\\TEMS\\Event.Client\\wwwroot\\",
+      "BasePath": "_content/Event.Client",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jay.chaniyara\\Documents\\Project\\TEMS\\Event.Client\\wwwroot\\CitiesImages\\54693.jpg",
+      "SourceId": "Event.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jay.chaniyara\\Documents\\Project\\TEMS\\Event.Client\\wwwroot\\",
+      "BasePath": "_content/Event.Client",
+      "RelativePath": "CitiesImages/54693.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CitiesImages\\54693.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\jay.chaniyara\\Documents\\Project\\TEMS\\Event.Client\\wwwroot\\CitiesImages\\jayy.jpg",
+      "SourceId": "Event.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jay.chaniyara\\Documents\\Project\\TEMS\\Event.Client\\wwwroot\\",
+      "BasePath": "_content/Event.Client",
+      "RelativePath": "CitiesImages/jayy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CitiesImages\\jayy.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\jay.chaniyara\\Documents\\Project\\TEMS\\Event.Client\\wwwroot\\SpeakerImages\\omen.png",
+      "SourceId": "Event.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jay.chaniyara\\Documents\\Project\\TEMS\\Event.Client\\wwwroot\\",
+      "BasePath": "_content/Event.Client",
+      "RelativePath": "SpeakerImages/omen.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SpeakerImages\\omen.png"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\bin\Debug\net6.0\Event.Business.deps.json
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\bin\Debug\net6.0\Event.Business.dll
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\bin\Debug\net6.0\Event.Business.pdb
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\obj\Debug\net6.0\Event.Business.csproj.AssemblyReference.cache
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\obj\Debug\net6.0\Event.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\obj\Debug\net6.0\Event.Business.AssemblyInfoInputs.cache
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\obj\Debug\net6.0\Event.Business.AssemblyInfo.cs
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\obj\Debug\net6.0\Event.Business.csproj.CoreCompileInputs.cache
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\obj\Debug\net6.0\Event.Business.dll
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\obj\Debug\net6.0\refint\Event.Business.dll
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\obj\Debug\net6.0\Event.Business.pdb
+C:\Users\jay.chaniyara\Documents\Project\TEMS\Event.Business\obj\Debug\net6.0\ref\Event.Business.dll

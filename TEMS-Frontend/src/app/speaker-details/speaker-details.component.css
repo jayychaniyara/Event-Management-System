@@ -1,0 +1,210 @@
+/*body {*/
+
+  /*background: #250008;*/
+  /*font-family: sans-serif;
+  background-color: #43345d;
+  height: 100vh;
+}
+
+.heading {
+  color: white;
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 360px;
+  height: 400px;
+  background: #000;
+}
+
+  .card .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+    .card .image img {
+      width: 100%;
+      transition: .5s;
+    }
+
+  .card:hover .image img {
+    opacity: .5;
+    transform: translateX(30%);*/ /*100%*/
+  /*}
+
+  .card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;*/ /*100%*/
+    /*height: 100%;*/
+    /*background: #ffc107;*/
+    /*background: #9281B2;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+  }
+
+  .card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+  }
+
+  .card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #F2E5E5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+    .card .details .center h1 {
+      margin: 0;
+      padding: 0;
+      color: #E8C4C4;
+      line-height: 20px;
+      font-size: 20px;
+      margin: 15px 0;
+      text-transform: uppercase;
+    }
+
+      .card .details .center h1 span {
+        font-size: 14px;
+        color: #262626;
+      }
+
+    .card .details .center p {
+      margin: 15px 0;
+      padding: 0;
+      color: #262626;
+    }
+
+    .card .details .center ul {
+      margin: 10px auto 0;
+      padding: 0;
+      display: table;
+    }
+
+      .card .details .center ul li {
+        list-style: none;
+        margin: 0 5px;
+        float: left;
+      }
+
+        .card .details .center ul li a {
+          display: block;
+          background: #262626;
+          color: #fff;
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          transform: .5s;
+        }
+
+          .card .details .center ul li a:hover {
+            background: #ff3636;
+          }*/
+
+
+/*New trial */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  background: #250008;
+  background-color: #43345d;
+  height: 100vh;
+}
+
+.testimotionals {
+  width: 350px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px
+}
+
+
+  .testimotionals .card {
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,.5)
+  }
+
+    .testimotionals .card .layer {
+      z-index: 1;
+      position: absolute;
+      top: calc(100% - 2px);
+      height: 100%;
+      width: 100%;
+      left: 0;
+      /*background: linear-gradient(to left, orange, tomato);*/
+      background: linear-gradient(to left, #614385, #516395 );
+      transition: 0.5s;
+    }
+
+    .testimotionals .card .content {
+      z-index: 2;
+      position: relative;
+    }
+
+    .testimotionals .card:hover .layer {
+      top: 0;
+    }
+
+    .testimotionals .card .content p {
+      font-size: 14px;
+      line-height: 24px;
+      color: black;
+    }
+
+    .testimotionals .card .content .image {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid white;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+
+    .testimotionals .card .conte nt .details h2 {
+      font-size: 18px;
+      color: white;
+    }
+
+    .testimotionals .card .content .details h2 span {
+      font-size: 18px;
+      color: purple;
+      transition: 0.5s;
+    }
+
+    .testimotionals .card:hover .content .details h2 span {
+      color: white;
+      position: relative
+    }
+
+body {
+  margin-bottom: 20px
+}
+
+.heading {
+  color: white;
+  font-size: 40px;
+  margin-left: 30px;
+}

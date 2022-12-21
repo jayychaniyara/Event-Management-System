@@ -1,0 +1,20 @@
+<body>
+  <div class="heading p-3">
+    <b>Venue Details</b>
+  </div>
+
+  <div class="card" *ngFor="let item of listVenue">
+    <div class="card-header">
+      <div class="header-img">
+        <img src="../../assets/{{item.image}}" />
+      </div>
+    </div>
+    <div class="card-title">
+      <h1>{{item.cityName}}</h1>
+      <p>Address: {{item.address}}</p>
+      <p>Website: <a href="">{{item.website}}</a></p>
+      <p>Phone: {{item.phoneNo}}</p>
+
+    </div>
+  </div>
+</body>

@@ -1,0 +1,25 @@
+<body>
+
+  <div class="heading d-inline p-3">
+    <b>Event Details</b>
+  </div>
+  <div class="d-inline p-3">
+    <button class="button type3" (click)="redirectVenue()">
+      Venue
+    </button>
+    <button class="button type3" (click)="redirectSpeakers()">
+      Speaker
+    </button>
+  </div>
+
+  <div class="wrapper m-4">
+    <div class="card">
+      <img src="../../assets/{{listEvent.image}}" />
+      <div class="info p-2">
+        <h1 class="p-2"> {{listEvent.name}} </h1>
+        <p class="p-2 fs-5"> Total number of days: <b>{{getDiffDays(listEvent)}}</b></p>
+        <button class="m-2 activeButton">Active</button>
+      </div>
+    </div>
+  </div>
+</body>
